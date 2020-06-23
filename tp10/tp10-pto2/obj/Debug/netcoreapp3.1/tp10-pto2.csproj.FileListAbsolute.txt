@@ -1,0 +1,13 @@
+C:\Users\giuli\Documents\Facultad\Taller1\TP10\tp10\tp10-pto2\bin\Debug\netcoreapp3.1\tp10-pto2.exe
+C:\Users\giuli\Documents\Facultad\Taller1\TP10\tp10\tp10-pto2\bin\Debug\netcoreapp3.1\tp10-pto2.deps.json
+C:\Users\giuli\Documents\Facultad\Taller1\TP10\tp10\tp10-pto2\bin\Debug\netcoreapp3.1\tp10-pto2.runtimeconfig.json
+C:\Users\giuli\Documents\Facultad\Taller1\TP10\tp10\tp10-pto2\bin\Debug\netcoreapp3.1\tp10-pto2.runtimeconfig.dev.json
+C:\Users\giuli\Documents\Facultad\Taller1\TP10\tp10\tp10-pto2\bin\Debug\netcoreapp3.1\tp10-pto2.dll
+C:\Users\giuli\Documents\Facultad\Taller1\TP10\tp10\tp10-pto2\bin\Debug\netcoreapp3.1\tp10-pto2.pdb
+C:\Users\giuli\Documents\Facultad\Taller1\TP10\tp10\tp10-pto2\obj\Debug\netcoreapp3.1\tp10-pto2.csprojAssemblyReference.cache
+C:\Users\giuli\Documents\Facultad\Taller1\TP10\tp10\tp10-pto2\obj\Debug\netcoreapp3.1\tp10-pto2.AssemblyInfoInputs.cache
+C:\Users\giuli\Documents\Facultad\Taller1\TP10\tp10\tp10-pto2\obj\Debug\netcoreapp3.1\tp10-pto2.AssemblyInfo.cs
+C:\Users\giuli\Documents\Facultad\Taller1\TP10\tp10\tp10-pto2\obj\Debug\netcoreapp3.1\tp10-pto2.csproj.CoreCompileInputs.cache
+C:\Users\giuli\Documents\Facultad\Taller1\TP10\tp10\tp10-pto2\obj\Debug\netcoreapp3.1\tp10-pto2.dll
+C:\Users\giuli\Documents\Facultad\Taller1\TP10\tp10\tp10-pto2\obj\Debug\netcoreapp3.1\tp10-pto2.pdb
+C:\Users\giuli\Documents\Facultad\Taller1\TP10\tp10\tp10-pto2\obj\Debug\netcoreapp3.1\tp10-pto2.genruntimeconfig.cache
