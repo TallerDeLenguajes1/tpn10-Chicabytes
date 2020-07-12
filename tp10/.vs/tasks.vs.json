@@ -1,0 +1,10 @@
+{
+  "version": "0.2.1",
+  "tasks": [
+    {
+      "taskLabel": "task-tp10",
+      "appliesTo": "tp10/",
+      "type": "launch"
+    }
+  ]
+}
