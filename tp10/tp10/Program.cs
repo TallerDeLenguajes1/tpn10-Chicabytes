@@ -9,7 +9,7 @@ namespace tp10
         static void Main(string[] args)
         {
             string NombreArchivo = "ListadoInmuebles.csv";
-            string PathArch = @"C:\Users\giuli\Documents\Facultad\Taller1\TP10\tp10\tp10\";
+            string PathArch = @"C:\TP10\";
             List<Propiedad> ListaPropiedades = new List<Propiedad>();
             FileStream Arch_Leer = new FileStream(PathArch + NombreArchivo, FileMode.Open);
             StreamReader Leer = new StreamReader(Arch_Leer);
@@ -34,8 +34,8 @@ namespace tp10
             StreamWriter Escribir = new StreamWriter(Arch_Escribir);
             foreach(Propiedad _prop in ListaPropiedades)
             {
-                Escribir.WriteLine(_prop.Id + ';' + _prop.Tamanio + ';' + _prop.Cantidad_baños + ';' + _prop.Cantidad_habitaciones + ';' + _prop.Domicilio + ';' + _prop.Operacion + ';' + _prop.Precio + ';' + _prop.Estado + ';' + _prop.Propiedades + ';');
-                Console.WriteLine(_prop.Id + ';' + _prop.Tamanio + ';' + _prop.Cantidad_baños + ';' + _prop.Cantidad_habitaciones + ';' + _prop.Domicilio + ';' + _prop.Operacion + ';' + _prop.Precio + ';' + _prop.Estado + ';' + _prop.Propiedades + ';');
+                Escribir.WriteLine(_prop.Id.ToString() + ';' + _prop.Tamanio.ToString() + ';' + _prop.Cantidad_baños.ToString() + ';' + _prop.Cantidad_habitaciones.ToString() + ';' + _prop.Domicilio + ';' + _prop.Operacion + ';' + _prop.Precio + ';' + _prop.Estado + ';' + _prop.Propiedades + ';');
+                Console.WriteLine(_prop.Id.ToString() + ';' + _prop.Tamanio.ToString() + ';' + _prop.Cantidad_baños.ToString() + ';' + _prop.Cantidad_habitaciones.ToString() + ';' + _prop.Domicilio + ';' + _prop.Operacion + ';' + _prop.Precio + ';' + _prop.Estado + ';' + _prop.Propiedades + ';');
 
             }
             Escribir.Close();

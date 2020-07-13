@@ -45,9 +45,19 @@ namespace tp10
         {
             Random Rand = new Random();
             Id = _Id;
-            Tamanio = Convert.ToSingle(Rand.Next());
-            Cantidad_baños = Rand.Next(1,5);
-            Cantidad_habitaciones = Rand.Next(1,10);
+            float aux = Rand.Next(10000,99999);
+            aux /= 100;
+            Tamanio = aux;
+            if(_Propiedades.Contains("Terreno"))
+            {
+                Cantidad_baños = 0;
+                Cantidad_habitaciones = 0;
+            }
+            else
+            {
+                Cantidad_baños = Rand.Next(1, 5);
+                Cantidad_habitaciones = Rand.Next(1, 10);
+            }
             Domicilio = _Domicilio;
             TipoOp();
             Precio = Rand.Next(10000, 1000000);
